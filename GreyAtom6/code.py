@@ -63,7 +63,7 @@ ax_1 = data.plot.scatter(x='ApplicantIncome',y='LoanAmount')
 ax_1.set_title('Applicant Income')
 
 ax_2 = data.plot.scatter(x='CoapplicantIncome',y='LoanAmount')
-ax_1.set_title('Coapplicant Income')
+ax_2.set_title('Coapplicant Income')
 
 data['TotalIncome'] = data['ApplicantIncome'] + data['CoapplicantIncome']
 ax_3 = data.plot.scatter(x='TotalIncome',y='LoanAmount')
